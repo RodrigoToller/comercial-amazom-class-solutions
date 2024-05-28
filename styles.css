@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+
+:root{
+
+    --verde-principal: #03b12e;
+    --verde-secundario: #22ffda;
+    --verde-terciario: #1eff8f;
+    --preto-principal: #000000;
+    --branco-principal: #ffffff;
+
+}
+
+body{
+    background-color: var(--preto-principal);
+    font-family: 'Oswald', sans-serif;
+    color: var(--branco-principal);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.principal{
+    
+    margin-left: 150px;
+    background-image: url("img/banner\ filmes.png");
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: contain;
+    align-items: center;
+    text-align: center;
+
+}
+
+.container{
+    height: 70vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.container-caixa{
+    margin: 15px;
+}
+.container-titulo{
+    font-weight: bold;
+}
+
+
+
+.container-imagem{
+
+    width: 90%;
+    margin: 10px 5px 10px 5px;
+    
+
+}
+
+.container-botao{
+
+    margin: 10px 5px 10px 5px;
+
+    background-color: var(--verde-terciario);
+    display: block;
+    border-radius: 6px;
+    padding: 10px 20px;
+    color: var(--branco-principal);
+    text-decoration: none;
+
+}
+
+
+.botao-secundario{
+
+    background-color: transparent;
+    border: 2px solid var(--verde-terciario);
+
+
+}
+
+.botao-secundario:hover{
+
+    background-color: var(--verde-secundario);
+    color: var(--preto-principal);
+
+}
+
+.container-aviso{
+
+    margin-left: 10px;
+    font-size: 16px;
+    color: var(--branco-principal);
+
+}
+
+
+
+.secundario{
+
+    align-items: center;
+
+}
+
+.secundario-imagem{
+
+    
+    border-radius: 50px;
+    box-shadow: 0 0 10px 10px var(--verde-terciario);
+    margin-left: 250px;
+    width: 50%;
+
+}
+
+.titulo-secundario{
+
+    font-weight: bold;
+    font-size: 36px;
+}
+
+.botao-terciario{
+    display: inline-block;
+}
+
+.container-descricao{
+    margin: 50px;
+}
+.descricao-secundaria{
+    margin-left: 5px;
+}
+.secao-avisos{
+
+    text-align: center;
+
+}
+
+.titulo-aviso{
+
+    font-size: 42px;
+    font-weight: bold;
+}
+
+
+.imagem-aviso{
+
+width: 50%;
+
+}
+
+
+.lista-avisos{
+
+    margin: 5px 5px 50px 10px;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+
+}
+
+
+.rodape{
+
+    background-image: radial-gradient(circle, var(--preto-principal) 40%, var(--verde-principal) );
+    text-align: center;
+    padding: 10px;
+    bottom: 0;
+    width: 100%;
+
+}
+.rodape-lista{
+    
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.logo-rodape{
+width: 20%;
+}
+
+.lista-link a{
+    text-decoration: none;
+    color: var(--branco-principal);
+}
+
+.lista-link a:hover{
+    color: var(--verde-terciario);
+}
