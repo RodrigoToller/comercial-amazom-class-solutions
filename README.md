@@ -1,6 +1,6 @@
 # Meu Projeto
 
-Bem-vindo ao meu projeto! Aqui está uma breve descrição.
+Bem-vindo ao meu projeto! 
 
 ## Descrição
 
